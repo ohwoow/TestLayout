@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__link">Вступить в сообщество</a>
+        <a href="#" class="header__logo">
+          <img src="img/logo.svg" alt="MyWay logotype">
+        </a>
+        <div class="header__menu menu">
+          <div class="menu__burger">
+            <div class="menu__burder-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a href="#" class="menu__burger-text">Меню</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="blog">
+      <div class="blog__container">
+        <h1 class="blog__title">Блог</h1>
+        <p class="blog__text">На этой страницы ты найдешь всю информацию о жизни Сообщества</p>
+      </div>
+    </section>
+
+    <div class="feed">
+      <div class="container">
+        <div class="feed__wrapper">
+          <div class="feed__posts posts-feed">
+
+            <div class="posts-feed__item item-post">
+              <div class="item-post__header">
+                <div class="item-post__user post-user">
+                  <a href="#" class="post-user__avatar">
+                    <img src="img/user-photo.jpg" class="post-user__avatar-img" alt="">
+                  </a>
+                  <div class="post-user__info">
+                    <a href="#" class="post-user__name">Ольга Найденова</a>
+                    <time class="post-user__date">20 июля 2020г.</time>
+                  </div>
+                </div>
+                <div class="item-post__like post-like">
+                  <button type="button" class="post-like__likes post-likes">
+                    <svg class="post-like__icon post-likes__icon" width="24" height="22" viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.4257 9.58303C22.1624 13.0616 15.0784 19.9932 12.0028 22C8.92722 19.9932 1.83736 13.0616 0.57406 9.58303C-0.500339 6.62054 -0.181562 2.60047 2.51624 0.969512C7.88233 -2.2733 12.0028 3.65805 12.0028 3.65805C12.0028 3.65805 16.1174 -2.2733 21.4894 0.969512C24.1813 2.60047 24.5001 6.62054 23.4257 9.58303Z" />
+                    </svg>
+                    <span class="post-likes__quantity">144</span>
+                  </button>
+                  <button type="button" class="post-like__comments post-comments">
+                    <svg class="post-like__icon post-comments__icon" width="26" height="20" viewBox="0 0 26 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14 20C20.6274 20 26 15.5228 26 10C26 4.47715 20.6274 0 14 0C7.37258 0 2 4.47715 2 10C2 11.8921 2.6306 13.6615 3.72621 15.1701C3.75657 16.4867 3.01323 18 0 18C1.38884 18.8333 4.35163 19.736 6.68955 17.9308C8.71371 19.2284 11.2487 20 14 20Z" />
+                    </svg>
+                    <span class="post-comments__quantity">12</span>
+                  </button>
+                </div>
+              </div>
+              <div class="item-post__body post-body post-body_text">
+                <p class="post-body__text">
+                  Не всегда есть время ходить на фитнес, поэтому мы подобрали для тебя несколько упражнений, которые
+                  помогут держать дело в тонусе. Упражнения отлично подойдут как женщинам, так и мужчинам, поскольку
+                  каждый может менять продолжительность выполнения заданий и тем самым, менять нагрузку
+                  <b>#MyWay_Рекомендует</b>
+                </p>
+              </div>
+              <div class="item-post__footer post-footer">
+                <form action="#" class="post-footer__form">
+                  <input type="text" class="post-footer__input" placeholder="Напишите что-нибудь..." autocomplete="off"
+                    required>
+                  <button type="submit" class="post-footer__send">Отправить</button>
+                </form>
+              </div>
+            </div>
+            <div class="posts-feed__item item-post posts-feed__item_images">
+              <div class="item-post__header item-post__header_images">
+                <div class="item-post__user post-user">
+                  <a href="#" class="post-user__avatar">
+                    <img src="img/user-photo.jpg" class="post-user__avatar-img" alt="">
+                  </a>
+                  <div class="post-user__info">
+                    <a href="#" class="post-user__name">Ольга Найденова</a>
+                    <time class="post-user__date">20 июля 2020г.</time>
+                  </div>
+                </div>
+                <div class="item-post__like post-like">
+                  <button type="button" class="post-like__likes post-likes">
+                    <svg class="post-like__icon post-likes__icon" width="24" height="22" viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.4257 9.58303C22.1624 13.0616 15.0784 19.9932 12.0028 22C8.92722 19.9932 1.83736 13.0616 0.57406 9.58303C-0.500339 6.62054 -0.181562 2.60047 2.51624 0.969512C7.88233 -2.2733 12.0028 3.65805 12.0028 3.65805C12.0028 3.65805 16.1174 -2.2733 21.4894 0.969512C24.1813 2.60047 24.5001 6.62054 23.4257 9.58303Z" />
+                    </svg>
+                    <span class="post-likes__quantity">144</span>
+                  </button>
+                  <button type="button" class="post-like__comments post-comments">
+                    <svg class="post-like__icon post-comments__icon" width="26" height="20" viewBox="0 0 26 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14 20C20.6274 20 26 15.5228 26 10C26 4.47715 20.6274 0 14 0C7.37258 0 2 4.47715 2 10C2 11.8921 2.6306 13.6615 3.72621 15.1701C3.75657 16.4867 3.01323 18 0 18C1.38884 18.8333 4.35163 19.736 6.68955 17.9308C8.71371 19.2284 11.2487 20 14 20Z" />
+                    </svg>
+                    <span class="post-comments__quantity">12</span>
+                  </button>
+                </div>
+              </div>
+              <div class="item-post__body post-body post-body_images">
+                <div class="post-body__main-img">
+                  <img src="img/post-img.jpg" alt="">
+                </div>
+                <div class="post-body__other-img">
+                  <img src="img/post-img_small.jpg" alt="">
+                  <img src="img/post-img_small.jpg" alt="">
+                </div>
+              </div>
+              <div class="item-post__footer post-footer item-post__footer_images">
+                <form action="#" class="post-footer__form">
+                  <input type="text" class="post-footer__input" placeholder="Напишите что-нибудь..." autocomplete="off"
+                    required>
+                  <button type="submit" class="post-footer__send">Отправить</button>
+                </form>
+              </div>
+            </div>
+            <div class="posts-feed__item item-post">
+              <div class="item-post__header">
+                <div class="item-post__user post-user">
+                  <a href="#" class="post-user__avatar">
+                    <img src="img/user-photo.jpg" class="post-user__avatar-img" alt="">
+                  </a>
+                  <div class="post-user__info">
+                    <a href="#" class="post-user__name">Ольга Найденова</a>
+                    <time class="post-user__date">20 июля 2020г.</time>
+                  </div>
+                </div>
+                <div class="item-post__like post-like">
+                  <button type="button" class="post-like__likes post-likes">
+                    <svg class="post-like__icon post-likes__icon" width="24" height="22" viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.4257 9.58303C22.1624 13.0616 15.0784 19.9932 12.0028 22C8.92722 19.9932 1.83736 13.0616 0.57406 9.58303C-0.500339 6.62054 -0.181562 2.60047 2.51624 0.969512C7.88233 -2.2733 12.0028 3.65805 12.0028 3.65805C12.0028 3.65805 16.1174 -2.2733 21.4894 0.969512C24.1813 2.60047 24.5001 6.62054 23.4257 9.58303Z" />
+                    </svg>
+                    <span class="post-likes__quantity">144</span>
+                  </button>
+                  <button type="button" class="post-like__comments post-comments">
+                    <svg class="post-like__icon post-comments__icon" width="26" height="20" viewBox="0 0 26 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14 20C20.6274 20 26 15.5228 26 10C26 4.47715 20.6274 0 14 0C7.37258 0 2 4.47715 2 10C2 11.8921 2.6306 13.6615 3.72621 15.1701C3.75657 16.4867 3.01323 18 0 18C1.38884 18.8333 4.35163 19.736 6.68955 17.9308C8.71371 19.2284 11.2487 20 14 20Z" />
+                    </svg>
+                    <span class="post-comments__quantity">12</span>
+                  </button>
+                </div>
+              </div>
+              <div class="item-post__body post-body post-body_image-and-text">
+                <div class="post-body__img">
+                  <img src="img/image-and-descr.jpg" alt="">
+                </div>
+                <div class="post-body__description">
+                  <p class="post-body__description__text">Не всегда есть время ходить на фитнес, поэтому мы подобрали
+                    для тебя несколько упражнений, которые
+                    помогут держать дело в тонусе. Упражнения отлично подойдут как женщинам, так и мужчинам, поскольку
+                    каждый может менять продолжительность выполнения заданий и тем самым, менять нагрузку
+                    #MyWay_Рекомендует
+                  </p>
+                </div>
+              </div>
+              <div class="item-post__footer post-footer">
+                <form action="#" class="post-footer__form">
+                  <input type="text" class="post-footer__input" placeholder="Напишите что-нибудь..." autocomplete="off"
+                    required>
+                  <button type="submit" class="post-footer__send">Отправить</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <aside class="feed__events events">
+            <a href="#" class="events__item item-event">
+              <div class="item-event__bg">
+                <img src="img/events-bg.jpg" class="item-event__bg-img" alt="">
+              </div>
+              <span class="item-event__label">мероприятие</span>
+              <h2 class="item-event__title">
+                Длинный заголовок с названием мероприятия
+              </h2>
+              <span class="item-event__text item-event__city">Екатеринбург</span>
+              <div class="item-event__text item-event__date">11 августа 12:30</div>
+            </a>
+            <a href="#" class="events__item item-event">
+              <div class="item-event__bg">
+                <img src="img/events-bg.jpg" class="item-event__bg-img" alt="">
+              </div>
+              <span class="item-event__label">мероприятие</span>
+              <h2 class="item-event__title">
+                Длинный заголовок с названием мероприятия
+              </h2>
+              <span class="item-event__text item-event__city">Екатеринбург</span>
+              <div class="item-event__text item-event__date">11 августа 12:30</div>
+            </a>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__header header-footer">
+          <div class="header-footer__tabs">
+            <a href="#" class="header-footer__tabs-link header-footer__tabs-link_current">Главная</a>
+            <a href="#" class="header-footer__tabs-link">О сервисе</a>
+            <a href="#" class="header-footer__tabs-link">Что-то еще</a>
+            <a href="#" class="header-footer__tabs-link">Что-то еще</a>
+          </div>
+          <a href="#" class="header-footer__logo">
+            <img src="img/logo_gray.svg" alt="">
+          </a>
+        </div>
+        <div class="footer__body body-footer">
+          <div class="body-footer__column">
+            <div class="body-footer__news news-footer">
+              <h3 class="news-footer__title">Последние новости</h3>
+              <ul class="news-footer__list">
+                <li class="news-footer__item">
+                  <div class="news-footer__text">
+                    Взаимодействие между кварками осуществляется посредством восьми разновидностей частиц
+                  </div>
+                  <a href="#" class="news-footer__link"></a>
+                </li>
+                <li class="news-footer__item">
+                  <div class="news-footer__text">
+                    Именно они выступают в роли ведер с водой, если вернуться к аналогии с фигуристами
+                  </div>
+                  <a href="#" class="news-footer__link"></a>
+                </li>
+              </ul>
+              <div class="news-footer__subscribe subscribe-footer">
+                <span class="subscribe-footer__text">Подпишись на наши обновления</span>
+                <a href="#" class="news-footer__link"></a>
+              </div>
+            </div>
+
+            <div class="body-footer__app app-footer">
+              <h3 class="app-footer__title">Мобильное приложение</h3>
+              <div class="app-footer__items">
+                <a href="#" class="app-footer__item app-footer__item_google">
+                  <img src="img/google-play.svg" alt="">
+                </a>
+                <a href="#" class="app-footer__item app-footer__item_apple">
+                  <img src="img/app-store.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="body-footer__column">
+            <nav class="body-footer__nav nav-footer">
+              <h3 class="nav-footer__title">Навигация</h3>
+
+              <ul class="nav-footer__list">
+                <li><a href="#" class="nav-footer__link">О платформе</a></li>
+                <li><a href="#" class="nav-footer__link">Решения компании</a></li>
+                <li><a href="#" class="nav-footer__link">Жизнь MyWay</a></li>
+                <li><a href="#" class="nav-footer__link">Партнеры</a></li>
+                <li><a href="#" class="nav-footer__link">Для организации</a></li>
+                <li><a href="#" class="nav-footer__link">Обучение</a></li>
+                <li><a href="#" class="nav-footer__link">Полезная информация</a></li>
+                <li><a href="#" class="nav-footer__link">Новостная лента</a></li>
+                <li><a href="#" class="nav-footer__link">Приложение</a></li>
+              </ul>
+            </nav>
+
+            <nav class="body-footer__info info-footer">
+              <h3 class="nav-footer__title info-footer__title">Информация</h3>
+              <ul class="nav-footer__list info-footer__list">
+                <li><a href="#" class="nav-footer__link info-footer__link">Публичная оферта</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Поддержи проект</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Какой-то еще пункт</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Другой пункт</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Политика конфиденциальности</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Команда</a></li>
+                <li><a href="#" class="nav-footer__link info-footer__link">Группа людей</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+
+        <div class="footer__bottom bottom-footer">
+          <span class="bottom-footer__copyright">© MyWay 2020</span>
+          <div class="bottom-footer__politics">
+            <a href="#" class="bottom-footer__politics-link">Правила и соглашения</a>
+            <a href="#" class="bottom-footer__politics-link">Политика конфиденциальности</a>
+            <a href="#" class="bottom-footer__politics-link">Правила использования</a>
+          </div>
+          <div class="bottom-footer__social">
+            <a href="#" class="bottom-footer__social-link">
+              <img src="img/vk.svg" alt="">
+            </a>
+            <a href="#" class="bottom-footer__social-link">
+              <img src="img/vk.svg" alt="">
+            </a>
+            <a href="#" class="bottom-footer__social-link">
+              <img src="img/vk.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
